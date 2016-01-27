@@ -7,14 +7,14 @@ var HelloWorld = React.createClass({displayName: "HelloWorld",
 	componentDidMount:function(){
 	},
 	handleClick:function(e){
-		
+
 	},
 	render:function(){
 		return (React.createElement("div", {className: "container"}, 
 			     React.createElement("div", {className: "text-container"}, 
 		         this.state.helloWorld.map(function(result){
-		         	return React.createElement("span", {onClick: this.handleClick}, result)
-		         }.bind(this))
+		         	return React.createElement("span", {onClick: handleClick}, result)
+		         })
 		         )
                ))
 	}

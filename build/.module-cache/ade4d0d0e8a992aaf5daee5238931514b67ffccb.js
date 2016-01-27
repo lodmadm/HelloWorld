@@ -7,7 +7,7 @@ var HelloWorld = React.createClass({displayName: "HelloWorld",
 	componentDidMount:function(){
 	},
 	handleClick:function(e){
-		
+		alert()
 	},
 	render:function(){
 		return (React.createElement("div", {className: "container"}, 
